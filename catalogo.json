@@ -1,0 +1,1322 @@
+{
+ "nome": "Scitizia: cidade 64 bits",
+ "versao": 1,
+ "unidades": "metros; Y para cima; frente em +Z; origem no chão (y = 0), no centro do modelo ou do lote",
+ "campos": {
+  "dimensoes": "largura (X), altura (Y) e profundidade (Z) da caixa do modelo, em metros",
+  "base_y": "o ponto mais baixo do modelo (negativo quando a fundação ou o lastro descem abaixo do chão)",
+  "triangulos": "triângulos do .glb",
+  "kb": "tamanho do .glb com as texturas embutidas",
+  "materiais": "liso (sem textura), lona, metal, madeira, chapa, pneu, xadrez, vidro, tecido, janelas, placa (texto ou logotipo) e luz (sem iluminação); a cor vem da cor por vértice"
+ },
+ "secoes": [
+  {
+   "nome": "Locais da cidade",
+   "modelos": 11
+  },
+  {
+   "nome": "Prédios, casas e lojas",
+   "modelos": 19
+  },
+  {
+   "nome": "Rua",
+   "modelos": 5
+  },
+  {
+   "nome": "Parque de apoio",
+   "modelos": 23
+  }
+ ],
+ "modelos": [
+  {
+   "id": "garagem_da_equipe",
+   "nome": "Garagem da equipe",
+   "secao": "Locais da cidade",
+   "descricao": "Galpão azul-marinho com três portões (o do meio aberto e iluminado), escritório, pilhas de pneus, cones e bandeiras",
+   "triangulos": 3642,
+   "kb": 491.3,
+   "dimensoes": [
+    36,
+    10.37,
+    36
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "chapa",
+    "metal",
+    "vidro",
+    "pneu",
+    "lona",
+    "luz",
+    "placa"
+   ],
+   "arquivo": "modelos/garagem_da_equipe.glb",
+   "previa": "previas/garagem_da_equipe.png"
+  },
+  {
+   "id": "concessionaria_vortan",
+   "nome": "Concessionária Vortan",
+   "secao": "Locais da cidade",
+   "descricao": "Loja de carros da marca inventada Vortan (telhado em serra), vitrine, totem com o logotipo, carros expostos no pátio e bandeiras",
+   "triangulos": 1792,
+   "kb": 261.9,
+   "dimensoes": [
+    36,
+    11.27,
+    36
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "metal",
+    "vidro",
+    "chapa",
+    "luz",
+    "lona",
+    "luz",
+    "placa",
+    "placa"
+   ],
+   "arquivo": "modelos/concessionaria_vortan.glb",
+   "previa": "previas/concessionaria_vortan.png"
+  },
+  {
+   "id": "concessionaria_castrel",
+   "nome": "Concessionária Castrel",
+   "secao": "Locais da cidade",
+   "descricao": "Loja de carros da marca inventada Castrel (marquise reta), vitrine, totem com o logotipo, carros expostos no pátio e bandeiras",
+   "triangulos": 1724,
+   "kb": 248.8,
+   "dimensoes": [
+    36,
+    11.27,
+    36
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "metal",
+    "vidro",
+    "luz",
+    "lona",
+    "luz",
+    "placa",
+    "placa"
+   ],
+   "arquivo": "modelos/concessionaria_castrel.glb",
+   "previa": "previas/concessionaria_castrel.png"
+  },
+  {
+   "id": "concessionaria_nimbo",
+   "nome": "Concessionária Nimbo",
+   "secao": "Locais da cidade",
+   "descricao": "Loja de carros da marca inventada Nimbo (quinas arredondadas), vitrine, totem com o logotipo, carros expostos no pátio e bandeiras",
+   "triangulos": 2120,
+   "kb": 298.7,
+   "dimensoes": [
+    36,
+    11.27,
+    36
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "metal",
+    "vidro",
+    "luz",
+    "lona",
+    "luz",
+    "placa",
+    "placa"
+   ],
+   "arquivo": "modelos/concessionaria_nimbo.glb",
+   "previa": "previas/concessionaria_nimbo.png"
+  },
+  {
+   "id": "concessionaria_hoshiro",
+   "nome": "Concessionária Hoshiro",
+   "secao": "Locais da cidade",
+   "descricao": "Loja de carros da marca inventada Hoshiro (torre de vidro), vitrine, totem com o logotipo, carros expostos no pátio e bandeiras",
+   "triangulos": 1796,
+   "kb": 260.2,
+   "dimensoes": [
+    36,
+    18.27,
+    36
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "metal",
+    "vidro",
+    "luz",
+    "lona",
+    "luz",
+    "placa",
+    "placa"
+   ],
+   "arquivo": "modelos/concessionaria_hoshiro.glb",
+   "previa": "previas/concessionaria_hoshiro.png"
+  },
+  {
+   "id": "concessionaria_ardena",
+   "nome": "Concessionária Ardena",
+   "secao": "Locais da cidade",
+   "descricao": "Loja de carros da marca inventada Ardena (colunata dourada), vitrine, totem com o logotipo, carros expostos no pátio e bandeiras",
+   "triangulos": 1864,
+   "kb": 263.6,
+   "dimensoes": [
+    36,
+    11.27,
+    36
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "metal",
+    "vidro",
+    "luz",
+    "lona",
+    "luz",
+    "placa",
+    "placa"
+   ],
+   "arquivo": "modelos/concessionaria_ardena.glb",
+   "previa": "previas/concessionaria_ardena.png"
+  },
+  {
+   "id": "galpao_de_seminovos",
+   "nome": "Galpão de seminovos",
+   "secao": "Locais da cidade",
+   "descricao": "Galpão em arco com cobertura de carros na frente",
+   "triangulos": 2146,
+   "kb": 297,
+   "dimensoes": [
+    36,
+    9.87,
+    36
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "chapa",
+    "metal",
+    "vidro",
+    "luz",
+    "lona",
+    "luz",
+    "placa"
+   ],
+   "arquivo": "modelos/galpao_de_seminovos.glb",
+   "previa": "previas/galpao_de_seminovos.png"
+  },
+  {
+   "id": "patio_de_usados",
+   "nome": "Pátio de usados",
+   "secao": "Locais da cidade",
+   "descricao": "Pátio cercado com carros em fileiras, etiquetas de preço, contêiner-escritório e varal de bandeirolas",
+   "triangulos": 5844,
+   "kb": 777.6,
+   "dimensoes": [
+    36,
+    11.38,
+    36
+   ],
+   "base_y": -0.01,
+   "materiais": [
+    "liso",
+    "metal",
+    "lona",
+    "chapa",
+    "vidro",
+    "luz",
+    "luz",
+    "placa",
+    "placa"
+   ],
+   "arquivo": "modelos/patio_de_usados.glb",
+   "previa": "previas/patio_de_usados.png"
+  },
+  {
+   "id": "sede_da_federacao",
+   "nome": "Sede da federação",
+   "secao": "Locais da cidade",
+   "descricao": "Prédio de colunata com frontão, escadaria, mastros e chafariz",
+   "triangulos": 1038,
+   "kb": 147.2,
+   "dimensoes": [
+    36,
+    14.522,
+    36
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso",
+    "metal",
+    "vidro",
+    "lona",
+    "base",
+    "placa"
+   ],
+   "arquivo": "modelos/sede_da_federacao.glb",
+   "previa": "previas/sede_da_federacao.png"
+  },
+  {
+   "id": "museu_do_rali",
+   "nome": "Museu do rali",
+   "secao": "Locais da cidade",
+   "descricao": "Rotunda com cúpula de cobre, galeria, troféu gigante e carro clássico no pedestal",
+   "triangulos": 1620,
+   "kb": 223.2,
+   "dimensoes": [
+    36,
+    18.67,
+    36
+   ],
+   "base_y": 0.2,
+   "materiais": [
+    "liso",
+    "metal",
+    "vidro",
+    "luz",
+    "luz",
+    "placa"
+   ],
+   "arquivo": "modelos/museu_do_rali.glb",
+   "previa": "previas/museu_do_rali.png"
+  },
+  {
+   "id": "portico_da_estrada",
+   "nome": "Pórtico da estrada",
+   "secao": "Locais da cidade",
+   "descricao": "Pórtico sobre a estrada com placas, cones e o caminhão da equipe",
+   "triangulos": 10902,
+   "kb": 1434.3,
+   "dimensoes": [
+    15.88,
+    10.8,
+    31.1
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "liso",
+    "pneu",
+    "xadrez",
+    "chapa",
+    "vidro",
+    "luz",
+    "placa",
+    "placa",
+    "placa"
+   ],
+   "arquivo": "modelos/portico_da_estrada.glb",
+   "previa": "previas/portico_da_estrada.png"
+  },
+  {
+   "id": "predio_centro_alto",
+   "nome": "Prédio alto do centro",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Prédio de muitos andares com fachada de janelas, casa de máquinas e recuo no topo",
+   "triangulos": 76,
+   "kb": 20.5,
+   "dimensoes": [
+    20,
+    33.162,
+    26.865
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "lona",
+    "metal",
+    "janelas"
+   ],
+   "arquivo": "modelos/predio_centro_alto.glb",
+   "previa": "previas/predio_centro_alto.png"
+  },
+  {
+   "id": "predio_centro",
+   "nome": "Prédio do centro",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Prédio de escritórios de poucos andares com toldo colorido no térreo",
+   "triangulos": 88,
+   "kb": 21.9,
+   "dimensoes": [
+    18,
+    12.5,
+    23.112
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "lona",
+    "metal",
+    "janelas"
+   ],
+   "arquivo": "modelos/predio_centro.glb",
+   "previa": "previas/predio_centro.png"
+  },
+  {
+   "id": "predio_orla",
+   "nome": "Prédio da orla",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Prédio residencial recuado da calçada",
+   "triangulos": 96,
+   "kb": 19.5,
+   "dimensoes": [
+    20,
+    34.387,
+    26
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "metal",
+    "janelas"
+   ],
+   "arquivo": "modelos/predio_orla.glb",
+   "previa": "previas/predio_orla.png"
+  },
+  {
+   "id": "predio_bairro",
+   "nome": "Prédio baixo do bairro",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Prédio de dois a quatro andares",
+   "triangulos": 88,
+   "kb": 21.9,
+   "dimensoes": [
+    16,
+    12.5,
+    20.124
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "lona",
+    "metal",
+    "janelas"
+   ],
+   "arquivo": "modelos/predio_bairro.glb",
+   "previa": "previas/predio_bairro.png"
+  },
+  {
+   "id": "predio_bairro_toldo",
+   "nome": "Prédio baixo com toldo",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Prédio pequeno com toldo e caixa-d'água no telhado",
+   "triangulos": 76,
+   "kb": 16.9,
+   "dimensoes": [
+    15,
+    12.5,
+    18
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "metal",
+    "janelas"
+   ],
+   "arquivo": "modelos/predio_bairro_toldo.glb",
+   "previa": "previas/predio_bairro_toldo.png"
+  },
+  {
+   "id": "casa_1",
+   "nome": "Casa com quintal 1",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Casa térrea com telhado de duas águas, muro baixo, cerca de madeira, árvore e às vezes carro na garagem",
+   "triangulos": 232,
+   "kb": 38.4,
+   "dimensoes": [
+    13,
+    6.88,
+    24
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "madeira",
+    "vidro"
+   ],
+   "arquivo": "modelos/casa_1.glb",
+   "previa": "previas/casa_1.png"
+  },
+  {
+   "id": "casa_2",
+   "nome": "Casa com quintal 2",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Casa térrea com telhado de duas águas, muro baixo, cerca de madeira, árvore e às vezes carro na garagem",
+   "triangulos": 340,
+   "kb": 55.6,
+   "dimensoes": [
+    13,
+    5.985,
+    24
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "madeira",
+    "vidro",
+    "metal",
+    "luz"
+   ],
+   "arquivo": "modelos/casa_2.glb",
+   "previa": "previas/casa_2.png"
+  },
+  {
+   "id": "casa_3",
+   "nome": "Casa com quintal 3",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Casa térrea com telhado de duas águas, muro baixo, cerca de madeira, árvore e às vezes carro na garagem",
+   "triangulos": 232,
+   "kb": 38.4,
+   "dimensoes": [
+    13,
+    7.211,
+    24
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "madeira",
+    "vidro"
+   ],
+   "arquivo": "modelos/casa_3.glb",
+   "previa": "previas/casa_3.png"
+  },
+  {
+   "id": "sobrado_1",
+   "nome": "Sobrado 1",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Sobrado com sacada, telhado de duas águas, muro e quintal",
+   "triangulos": 280,
+   "kb": 46.7,
+   "dimensoes": [
+    13,
+    8.57,
+    24
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "madeira",
+    "vidro",
+    "metal"
+   ],
+   "arquivo": "modelos/sobrado_1.glb",
+   "previa": "previas/sobrado_1.png"
+  },
+  {
+   "id": "sobrado_2",
+   "nome": "Sobrado 2",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Sobrado com sacada, telhado de duas águas, muro e quintal",
+   "triangulos": 424,
+   "kb": 66.5,
+   "dimensoes": [
+    13,
+    8.32,
+    24
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "madeira",
+    "vidro",
+    "metal",
+    "luz"
+   ],
+   "arquivo": "modelos/sobrado_2.glb",
+   "previa": "previas/sobrado_2.png"
+  },
+  {
+   "id": "sobrado_3",
+   "nome": "Sobrado 3",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Sobrado com sacada, telhado de duas águas, muro e quintal",
+   "triangulos": 424,
+   "kb": 66.4,
+   "dimensoes": [
+    13,
+    8.728,
+    24
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "madeira",
+    "vidro",
+    "metal",
+    "luz"
+   ],
+   "arquivo": "modelos/sobrado_3.glb",
+   "previa": "previas/sobrado_3.png"
+  },
+  {
+   "id": "loja_1",
+   "nome": "Loja de rua 1",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Loja com vitrine, faixa colorida, toldo e luz na fachada",
+   "triangulos": 216,
+   "kb": 40.3,
+   "dimensoes": [
+    14,
+    7.5,
+    18
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "vidro",
+    "lona",
+    "metal",
+    "luz",
+    "luz"
+   ],
+   "arquivo": "modelos/loja_1.glb",
+   "previa": "previas/loja_1.png"
+  },
+  {
+   "id": "loja_2",
+   "nome": "Loja de rua 2",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Loja com vitrine, faixa colorida, toldo e luz na fachada",
+   "triangulos": 216,
+   "kb": 40.3,
+   "dimensoes": [
+    14,
+    4.5,
+    18
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "vidro",
+    "lona",
+    "metal",
+    "luz",
+    "luz"
+   ],
+   "arquivo": "modelos/loja_2.glb",
+   "previa": "previas/loja_2.png"
+  },
+  {
+   "id": "loja_3",
+   "nome": "Loja de rua 3",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Loja com vitrine, faixa colorida, toldo e luz na fachada",
+   "triangulos": 72,
+   "kb": 18.5,
+   "dimensoes": [
+    14,
+    7.5,
+    19.295
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "vidro",
+    "lona",
+    "luz"
+   ],
+   "arquivo": "modelos/loja_3.glb",
+   "previa": "previas/loja_3.png"
+  },
+  {
+   "id": "loja_4",
+   "nome": "Loja de rua 4",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Loja com vitrine, faixa colorida, toldo e luz na fachada",
+   "triangulos": 72,
+   "kb": 18.5,
+   "dimensoes": [
+    14,
+    4.5,
+    19.295
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "vidro",
+    "lona",
+    "luz"
+   ],
+   "arquivo": "modelos/loja_4.glb",
+   "previa": "previas/loja_4.png"
+  },
+  {
+   "id": "galpao_1",
+   "nome": "Galpão industrial 1",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Galpão de chapa com portões, pátio cercado e contêiner",
+   "triangulos": 532,
+   "kb": 77.1,
+   "dimensoes": [
+    30,
+    10.516,
+    36
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "chapa",
+    "metal",
+    "lona"
+   ],
+   "arquivo": "modelos/galpao_1.glb",
+   "previa": "previas/galpao_1.png"
+  },
+  {
+   "id": "galpao_2",
+   "nome": "Galpão industrial 2",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Galpão de chapa com portões, pátio cercado e contêiner",
+   "triangulos": 532,
+   "kb": 77.1,
+   "dimensoes": [
+    30,
+    11.486,
+    36
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "chapa",
+    "metal",
+    "lona"
+   ],
+   "arquivo": "modelos/galpao_2.glb",
+   "previa": "previas/galpao_2.png"
+  },
+  {
+   "id": "estacionamento",
+   "nome": "Estacionamento",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Lote de estacionamento com vagas pintadas, carros e guarita",
+   "triangulos": 504,
+   "kb": 72.9,
+   "dimensoes": [
+    22,
+    2.7,
+    16
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "metal",
+    "vidro",
+    "luz"
+   ],
+   "arquivo": "modelos/estacionamento.glb",
+   "previa": "previas/estacionamento.png"
+  },
+  {
+   "id": "terreno_vazio",
+   "nome": "Terreno vazio",
+   "secao": "Prédios, casas e lojas",
+   "descricao": "Terreno com mato, cerca e placa sem texto",
+   "triangulos": 130,
+   "kb": 20.2,
+   "dimensoes": [
+    13,
+    1.4,
+    20
+   ],
+   "base_y": -0.3,
+   "materiais": [
+    "liso",
+    "metal"
+   ],
+   "arquivo": "modelos/terreno_vazio.glb",
+   "previa": "previas/terreno_vazio.png"
+  },
+  {
+   "id": "poste_de_rua",
+   "nome": "Poste de rua",
+   "secao": "Rua",
+   "descricao": "Poste com braço e luminária acesa",
+   "triangulos": 60,
+   "kb": 12.6,
+   "dimensoes": [
+    0.4,
+    6.46,
+    2.17
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "liso",
+    "luz"
+   ],
+   "arquivo": "modelos/poste_de_rua.glb",
+   "previa": "previas/poste_de_rua.png"
+  },
+  {
+   "id": "carro_estacionado",
+   "nome": "Carro de rua",
+   "secao": "Rua",
+   "descricao": "Carro simples de rua com cabine de vidro e farol (cor por vértice)",
+   "triangulos": 368,
+   "kb": 55.5,
+   "dimensoes": [
+    1.84,
+    1.51,
+    4.135
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "vidro",
+    "liso",
+    "luz"
+   ],
+   "arquivo": "modelos/carro_estacionado.glb",
+   "previa": "previas/carro_estacionado.png"
+  },
+  {
+   "id": "carro_estacionado_leve",
+   "nome": "Carro de rua leve",
+   "secao": "Rua",
+   "descricao": "Versão mais leve do carro de rua, sem chanfro",
+   "triangulos": 144,
+   "kb": 26.6,
+   "dimensoes": [
+    1.84,
+    1.497,
+    4.135
+   ],
+   "base_y": 0.043,
+   "materiais": [
+    "metal",
+    "vidro",
+    "liso",
+    "luz"
+   ],
+   "arquivo": "modelos/carro_estacionado_leve.glb",
+   "previa": "previas/carro_estacionado_leve.png"
+  },
+  {
+   "id": "palmeira",
+   "nome": "Palmeira",
+   "secao": "Rua",
+   "descricao": "Palmeira de tronco curvo em dois gomos",
+   "triangulos": 128,
+   "kb": 18,
+   "dimensoes": [
+    4.942,
+    9.17,
+    4.269
+   ],
+   "base_y": -0.047,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/palmeira.glb",
+   "previa": "previas/palmeira.png"
+  },
+  {
+   "id": "mastro_com_bandeira",
+   "nome": "Mastro com bandeira",
+   "secao": "Rua",
+   "descricao": "Mastro cromado com bandeira de duas cores",
+   "triangulos": 48,
+   "kb": 12,
+   "dimensoes": [
+    0.139,
+    9,
+    1
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "lona"
+   ],
+   "arquivo": "modelos/mastro_com_bandeira.glb",
+   "previa": "previas/mastro_com_bandeira.png"
+  },
+  {
+   "id": "tenda_de_servico",
+   "nome": "Tenda de serviço",
+   "secao": "Parque de apoio",
+   "descricao": "Tenda com estrutura de tubos, teto de lona em duas águas, babado e varal de lâmpadas",
+   "triangulos": 1588,
+   "kb": 213.1,
+   "dimensoes": [
+    8.154,
+    4.383,
+    9.36
+   ],
+   "base_y": -0.002,
+   "materiais": [
+    "metal",
+    "liso",
+    "lona",
+    "luz"
+   ],
+   "arquivo": "modelos/tenda_de_servico.glb",
+   "previa": "previas/tenda_de_servico.png"
+  },
+  {
+   "id": "tenda_fechada",
+   "nome": "Tenda fechada",
+   "secao": "Parque de apoio",
+   "descricao": "Tenda de fundo com as paredes de lona fechadas",
+   "triangulos": 1324,
+   "kb": 182.2,
+   "dimensoes": [
+    6.754,
+    3.884,
+    6.86
+   ],
+   "base_y": -0.002,
+   "materiais": [
+    "metal",
+    "liso",
+    "lona",
+    "vidro",
+    "luz"
+   ],
+   "arquivo": "modelos/tenda_fechada.glb",
+   "previa": "previas/tenda_fechada.png"
+  },
+  {
+   "id": "gazebo",
+   "nome": "Gazebo",
+   "secao": "Parque de apoio",
+   "descricao": "Gazebo dobrável de lona em duas cores",
+   "triangulos": 548,
+   "kb": 77.6,
+   "dimensoes": [
+    3.74,
+    3.51,
+    3.74
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "liso",
+    "lona"
+   ],
+   "arquivo": "modelos/gazebo.glb",
+   "previa": "previas/gazebo.png"
+  },
+  {
+   "id": "picape_de_apoio",
+   "nome": "Picape de apoio",
+   "secao": "Parque de apoio",
+   "descricao": "Picape com santo-antônio, faróis de teto, estepe e galões na caçamba",
+   "triangulos": 2968,
+   "kb": 396.8,
+   "dimensoes": [
+    2.12,
+    2.12,
+    5.3
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "xadrez",
+    "vidro",
+    "liso",
+    "pneu",
+    "liso",
+    "luz"
+   ],
+   "arquivo": "modelos/picape_de_apoio.glb",
+   "previa": "previas/picape_de_apoio.png"
+  },
+  {
+   "id": "caminhao_de_servico",
+   "nome": "Caminhão de serviço",
+   "secao": "Parque de apoio",
+   "descricao": "Caminhão com baú aberto de lado e cavalo mecânico",
+   "triangulos": 9460,
+   "kb": 1234.3,
+   "dimensoes": [
+    5.81,
+    4.54,
+    16
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "liso",
+    "pneu",
+    "xadrez",
+    "chapa",
+    "vidro",
+    "luz"
+   ],
+   "arquivo": "modelos/caminhao_de_servico.glb",
+   "previa": "previas/caminhao_de_servico.png"
+  },
+  {
+   "id": "motorhome",
+   "nome": "Motorhome da equipe",
+   "secao": "Parque de apoio",
+   "descricao": "Motorhome com faixas da equipe",
+   "triangulos": 3496,
+   "kb": 463.6,
+   "dimensoes": [
+    3.36,
+    3.692,
+    11.436
+   ],
+   "base_y": 0.013,
+   "materiais": [
+    "metal",
+    "liso",
+    "vidro",
+    "xadrez",
+    "pneu",
+    "luz"
+   ],
+   "arquivo": "modelos/motorhome.glb",
+   "previa": "previas/motorhome.png"
+  },
+  {
+   "id": "conteiner",
+   "nome": "Contêiner",
+   "secao": "Parque de apoio",
+   "descricao": "Contêiner de carga de 6 m",
+   "triangulos": 188,
+   "kb": 29.5,
+   "dimensoes": [
+    2.49,
+    2.62,
+    6.07
+   ],
+   "base_y": -0.01,
+   "materiais": [
+    "chapa",
+    "metal",
+    "liso"
+   ],
+   "arquivo": "modelos/conteiner.glb",
+   "previa": "previas/conteiner.png"
+  },
+  {
+   "id": "holofote",
+   "nome": "Torre de holofote",
+   "secao": "Parque de apoio",
+   "descricao": "Holofote em tripé com a lâmpada acesa",
+   "triangulos": 432,
+   "kb": 60.6,
+   "dimensoes": [
+    0.981,
+    3.42,
+    0.857
+   ],
+   "base_y": -0.01,
+   "materiais": [
+    "liso",
+    "metal",
+    "luz"
+   ],
+   "arquivo": "modelos/holofote.glb",
+   "previa": "previas/holofote.png"
+  },
+  {
+   "id": "gerador",
+   "nome": "Gerador",
+   "secao": "Parque de apoio",
+   "descricao": "Gerador portátil sobre rodas",
+   "triangulos": 744,
+   "kb": 99.5,
+   "dimensoes": [
+    0.835,
+    0.63,
+    0.59
+   ],
+   "base_y": 0.01,
+   "materiais": [
+    "liso",
+    "metal"
+   ],
+   "arquivo": "modelos/gerador.glb",
+   "previa": "previas/gerador.png"
+  },
+  {
+   "id": "bancada",
+   "nome": "Bancada de trabalho",
+   "secao": "Parque de apoio",
+   "descricao": "Bancada de oficina com gavetas",
+   "triangulos": 932,
+   "kb": 127.6,
+   "dimensoes": [
+    2.4,
+    1.15,
+    0.792
+   ],
+   "base_y": 0,
+   "materiais": [
+    "madeira",
+    "metal",
+    "liso"
+   ],
+   "arquivo": "modelos/bancada.glb",
+   "previa": "previas/bancada.png"
+  },
+  {
+   "id": "painel_de_ferramentas",
+   "nome": "Painel de ferramentas",
+   "secao": "Parque de apoio",
+   "descricao": "Painel de parede com ferramentas penduradas",
+   "triangulos": 316,
+   "kb": 45.3,
+   "dimensoes": [
+    2.4,
+    1.2,
+    0.07
+   ],
+   "base_y": -0.6,
+   "materiais": [
+    "xadrez",
+    "liso"
+   ],
+   "arquivo": "modelos/painel_de_ferramentas.glb",
+   "previa": "previas/painel_de_ferramentas.png"
+  },
+  {
+   "id": "caixa_de_ferramentas",
+   "nome": "Carrinho de ferramentas",
+   "secao": "Parque de apoio",
+   "descricao": "Carrinho de ferramentas alto com gavetas",
+   "triangulos": 1232,
+   "kb": 162.4,
+   "dimensoes": [
+    0.79,
+    1.132,
+    0.53
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "liso"
+   ],
+   "arquivo": "modelos/caixa_de_ferramentas.glb",
+   "previa": "previas/caixa_de_ferramentas.png"
+  },
+  {
+   "id": "macaco_jacare",
+   "nome": "Macaco jacaré",
+   "secao": "Parque de apoio",
+   "descricao": "Macaco hidráulico de oficina",
+   "triangulos": 420,
+   "kb": 57.7,
+   "dimensoes": [
+    0.38,
+    0.737,
+    1.743
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "liso"
+   ],
+   "arquivo": "modelos/macaco_jacare.glb",
+   "previa": "previas/macaco_jacare.png"
+  },
+  {
+   "id": "extintor",
+   "nome": "Extintor",
+   "secao": "Parque de apoio",
+   "descricao": "Extintor de incêndio",
+   "triangulos": 208,
+   "kb": 28.3,
+   "dimensoes": [
+    0.211,
+    0.65,
+    0.2
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/extintor.glb",
+   "previa": "previas/extintor.png"
+  },
+  {
+   "id": "cadeira_dobravel",
+   "nome": "Cadeira dobrável",
+   "secao": "Parque de apoio",
+   "descricao": "Cadeira de lona dobrável",
+   "triangulos": 136,
+   "kb": 22,
+   "dimensoes": [
+    0.631,
+    0.932,
+    0.585
+   ],
+   "base_y": -0.009,
+   "materiais": [
+    "liso",
+    "tecido"
+   ],
+   "arquivo": "modelos/cadeira_dobravel.glb",
+   "previa": "previas/cadeira_dobravel.png"
+  },
+  {
+   "id": "mesa_dobravel",
+   "nome": "Mesa dobrável",
+   "secao": "Parque de apoio",
+   "descricao": "Mesa leve de apoio",
+   "triangulos": 376,
+   "kb": 52,
+   "dimensoes": [
+    1.2,
+    1.149,
+    0.7
+   ],
+   "base_y": -0.009,
+   "materiais": [
+    "metal",
+    "liso"
+   ],
+   "arquivo": "modelos/mesa_dobravel.glb",
+   "previa": "previas/mesa_dobravel.png"
+  },
+  {
+   "id": "tambor",
+   "nome": "Tambor de óleo",
+   "secao": "Parque de apoio",
+   "descricao": "Tambor metálico de 200 litros",
+   "triangulos": 216,
+   "kb": 31.4,
+   "dimensoes": [
+    0.6,
+    0.905,
+    0.6
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "liso"
+   ],
+   "arquivo": "modelos/tambor.glb",
+   "previa": "previas/tambor.png"
+  },
+  {
+   "id": "galao",
+   "nome": "Galão de combustível",
+   "secao": "Parque de apoio",
+   "descricao": "Galão de combustível",
+   "triangulos": 336,
+   "kb": 46.9,
+   "dimensoes": [
+    0.18,
+    0.501,
+    0.341
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "liso"
+   ],
+   "arquivo": "modelos/galao.glb",
+   "previa": "previas/galao.png"
+  },
+  {
+   "id": "pallet_com_caixas",
+   "nome": "Pallet com caixas",
+   "secao": "Parque de apoio",
+   "descricao": "Pallet de madeira com caixas de papelão",
+   "triangulos": 420,
+   "kb": 58.4,
+   "dimensoes": [
+    1.2,
+    0.56,
+    1
+   ],
+   "base_y": 0.01,
+   "materiais": [
+    "madeira"
+   ],
+   "arquivo": "modelos/pallet_com_caixas.glb",
+   "previa": "previas/pallet_com_caixas.png"
+  },
+  {
+   "id": "saco_de_areia",
+   "nome": "Saco de areia",
+   "secao": "Parque de apoio",
+   "descricao": "Saco de areia de lastro",
+   "triangulos": 42,
+   "kb": 9.2,
+   "dimensoes": [
+    0.395,
+    0.144,
+    0.25
+   ],
+   "base_y": -0.002,
+   "materiais": [
+    "lona"
+   ],
+   "arquivo": "modelos/saco_de_areia.glb",
+   "previa": "previas/saco_de_areia.png"
+  },
+  {
+   "id": "pilha_de_pneus",
+   "nome": "Pilha de pneus",
+   "secao": "Parque de apoio",
+   "descricao": "Pilha de quatro pneus",
+   "triangulos": 744,
+   "kb": 101.5,
+   "dimensoes": [
+    0.688,
+    0.975,
+    0.661
+   ],
+   "base_y": 0,
+   "materiais": [
+    "pneu",
+    "metal",
+    "liso"
+   ],
+   "arquivo": "modelos/pilha_de_pneus.glb",
+   "previa": "previas/pilha_de_pneus.png"
+  },
+  {
+   "id": "cone",
+   "nome": "Cone",
+   "secao": "Parque de apoio",
+   "descricao": "Cone de sinalização",
+   "triangulos": 148,
+   "kb": 20.5,
+   "dimensoes": [
+    0.36,
+    0.64,
+    0.36
+   ],
+   "base_y": 0,
+   "materiais": [
+    "liso"
+   ],
+   "arquivo": "modelos/cone.glb",
+   "previa": "previas/cone.png"
+  },
+  {
+   "id": "cerca_de_grade",
+   "nome": "Cerca de grade",
+   "secao": "Parque de apoio",
+   "descricao": "Lance de cerca de grade com faixa amarela",
+   "triangulos": 60,
+   "kb": 14.8,
+   "dimensoes": [
+    4.043,
+    1.1,
+    0.1
+   ],
+   "base_y": 0,
+   "materiais": [
+    "metal",
+    "liso",
+    "lona"
+   ],
+   "arquivo": "modelos/cerca_de_grade.glb",
+   "previa": "previas/cerca_de_grade.png"
+  }
+ ]
+}
