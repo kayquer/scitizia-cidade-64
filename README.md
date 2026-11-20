@@ -1,18 +1,18 @@
-# Scitizia: 58 prédios, lojas, peças de rua e de parque de apoio low poly em glTF/GLB com visual retrô de 64 bits
+# Scitizia: 63 prédios, lojas, peças de rua e de parque de apoio low poly em glTF/GLB com visual retrô de 64 bits
 
-![Mosaico com os 58 modelos low poly da cidade: garagem da equipe, concessionárias, museu, federação, prédios com janelas, casas com quintal, sobrados, lojas, galpões, postes, carros de rua, tendas, caminhão de serviço, motorhome e ferramentas de oficina](docs/cidade-low-poly-64-bits.jpg)
+![Mosaico com os 63 modelos low poly da cidade: garagem da equipe, concessionárias, museu, federação, prédios com janelas, casas com quintal, sobrados, lojas, galpões, postes, carros de rua, tendas, caminhão de serviço, motorhome, ferramentas de oficina, arquibancada, torre de observação, reboque e caminhão-guincho](docs/cidade-low-poly-64-bits.jpg)
 
-**Scitizia: cidade 64 bits** é uma coleção gratuita de construções e objetos de cidade em baixo polígono (low poly), com o visual retrô dos consoles de 64 bits, prontos para jogos em tempo real: **11 locais** inteiros num quarteirão (garagem da equipe, cinco concessionárias de marcas inventadas, galpão de seminovos, pátio de usados, sede da federação, museu e pórtico da estrada), **19 lotes** de prédios, casas, sobrados, lojas, galpões, estacionamento e terreno vazio, **5 peças de rua** e **23 objetos de parque de apoio** de equipe de rali (tendas, caminhão de serviço, motorhome, picape, ferramentas). São 58 arquivos glTF 2.0 binários (`.glb`) de 9,2 a 1.434,3 KB, com 42 a 10.902 triângulos, cor por vértice com sombreado assado e texturas de 64×64 px. Os modelos são os mesmos da cidade da carreira do jogo **Scitizia Rally Championship**, montados pelo próprio código do jogo; as marcas das concessionárias são inventadas.
+**Scitizia: cidade 64 bits** é uma coleção gratuita de construções e objetos de cidade em baixo polígono (low poly), com o visual retrô dos consoles de 64 bits, prontos para jogos em tempo real: **11 locais** inteiros num quarteirão (garagem da equipe, cinco concessionárias de marcas inventadas, galpão de seminovos, pátio de usados, sede da federação, museu e pórtico da estrada), **19 lotes** de prédios, casas, sobrados, lojas, galpões, estacionamento e terreno vazio, **5 peças de rua** e **28 objetos de parque de apoio e de prova** de rali (tendas, caminhão de serviço, motorhome, picape, ferramentas, arquibancada com e sem público, torre de observação, reboque de equipe e caminhão-guincho). São 63 arquivos glTF 2.0 binários (`.glb`) de 9,2 a 1.434,3 KB, com 42 a 10.902 triângulos, cor por vértice com sombreado assado e texturas de 64×64 px. Os modelos são os mesmos da cidade da carreira do jogo **Scitizia Rally Championship**, montados pelo próprio código do jogo; as marcas das concessionárias são inventadas.
 
-**English summary:** Scitizia 64-bit town is a free pack of 58 low-poly town buildings and props with a retro 64-bit console look: 11 full city blocks (team garage, five car dealerships of made-up brands, used car lot, motor sport federation building, rally museum and a road gantry), 19 lots with office and apartment buildings, houses with gardens, two-storey houses, street shops, warehouses, a parking lot and an empty lot, 5 street props (street light, parked cars, palm tree, flag pole) and 23 rally service park props (service tents, gazebo, service truck, motorhome, support pickup, container, floodlight, generator, workbench, tool cabinet, jack, chairs, drums, cones). Every model is a binary glTF 2.0 (`.glb`) file with 42 to 10902 triangles, vertex colors with baked shading and small 64×64 textures. Units are meters, Y is up, the front faces +Z and the origin sits on the ground. Public domain (CC0 1.0).
+**English summary:** Scitizia 64-bit town is a free pack of 63 low-poly town buildings and props with a retro 64-bit console look: 11 full city blocks (team garage, five car dealerships of made-up brands, used car lot, motor sport federation building, rally museum and a road gantry), 19 lots with office and apartment buildings, houses with gardens, two-storey houses, street shops, warehouses, a parking lot and an empty lot, 5 street props (street light, parked cars, palm tree, flag pole) and 28 rally service park and stage props (service tents, gazebo, service truck, motorhome, support pickup, container, floodlight, generator, workbench, tool cabinet, jack, chairs, drums, cones, grandstand with and without seated spectators, observation tower, small team trailer and tow truck). Every model is a binary glTF 2.0 (`.glb`) file with 42 to 10902 triangles, vertex colors with baked shading and small 64×64 textures. Units are meters, Y is up, the front faces +Z and the origin sits on the ground. Public domain (CC0 1.0).
 
 ## Resumo
 
 | | |
 |---|---|
-| Modelos | 58: locais da cidade (11) · prédios, casas e lojas (19) · rua (5) · parque de apoio (23) |
+| Modelos | 63: locais da cidade (11) · prédios, casas e lojas (19) · rua (5) · parque de apoio (28) |
 | Formato | glTF 2.0 binário (`.glb`), texturas também em PNG |
-| Triângulos | 42 a 10.902 por modelo (média 1.141) |
+| Triângulos | 42 a 10.902 por modelo (média 1.255) |
 | Tamanho | 9,2 a 1.434,3 KB por arquivo, com as texturas embutidas |
 | Materiais | cor por vértice com sombreado assado; 9 texturas de 64×64 px em tons de cinza (lona, metal, madeira...) e as placas com texto |
 | Escala e eixos | metros, Y para cima, frente em +Z, origem no chão |
@@ -83,9 +83,9 @@ Peças soltas para ruas e avenidas.
 
 ## Parque de apoio
 
-![Mosaico: parque de apoio, 23 modelos low poly](docs/cidade-parque-de-apoio.jpg)
+![Mosaico: parque de apoio, 28 modelos low poly](docs/cidade-parque-de-apoio.jpg)
 
-O kit dos parques de apoio do jogo: o que a equipe monta no parque de serviço de um rali.
+O kit dos parques de apoio do jogo: o que a equipe monta no parque de serviço de um rali, mais a arquibancada, a torre de observação, o reboque e o guincho que ficam na largada e na chegada dos estágios.
 
 | Prévia | Modelo | Descrição | Triângulos | Medidas | Tamanho |
 |---|---|---|---|---|---|
@@ -112,6 +112,11 @@ O kit dos parques de apoio do jogo: o que a equipe monta no parque de serviço d
 | <img src="previas/pilha_de_pneus.png" width="130" alt="Pilha de pneus, modelo low poly de cidade: pilha de quatro pneus"> | **Pilha de pneus**<br>[`pilha_de_pneus.glb`](modelos/pilha_de_pneus.glb) | Pilha de quatro pneus | 744 | 69 cm × 98 cm × 66 cm | 101,5 KB |
 | <img src="previas/cone.png" width="130" alt="Cone, modelo low poly de cidade: cone de sinalização"> | **Cone**<br>[`cone.glb`](modelos/cone.glb) | Cone de sinalização | 148 | 36 cm × 64 cm × 36 cm | 20,5 KB |
 | <img src="previas/cerca_de_grade.png" width="130" alt="Cerca de grade, modelo low poly de cidade: lance de cerca de grade com faixa amarela"> | **Cerca de grade**<br>[`cerca_de_grade.glb`](modelos/cerca_de_grade.glb) | Lance de cerca de grade com faixa amarela | 60 | 4,0 m × 1,1 m × 10 cm | 14,8 KB |
+| <img src="previas/arquibancada.png" width="130" alt="Arquibancada, modelo low poly de cidade: arquibancada de cinco degraus com estrutura de tubos, bancos de madeira, escada lateral e faixa da equipe"> | **Arquibancada**<br>[`arquibancada.glb`](modelos/arquibancada.glb) | Arquibancada de cinco degraus com estrutura de tubos, bancos de madeira, escada lateral e faixa da equipe | 1.144 | 11,2 m × 3,4 m × 4,8 m | 161,3 KB |
+| <img src="previas/arquibancada_com_publico.png" width="130" alt="Arquibancada com público, modelo low poly de cidade: a mesma arquibancada com o público sentado (figuras simples de ~100 triângulos fundidas na malha)"> | **Arquibancada com público**<br>[`arquibancada_com_publico.glb`](modelos/arquibancada_com_publico.glb) | A mesma arquibancada com o público sentado (figuras simples de ~100 triângulos fundidas na malha) | 5.732 | 11,2 m × 3,7 m × 4,8 m | 752,8 KB |
+| <img src="previas/torre_de_observacao.png" width="130" alt="Torre de observação, modelo low poly de cidade: torre de madeira treliçada com plataforma, guarda-corpo, telhado de quatro águas e escada"> | **Torre de observação**<br>[`torre_de_observacao.glb`](modelos/torre_de_observacao.glb) | Torre de madeira treliçada com plataforma, guarda-corpo, telhado de quatro águas e escada | 1.342 | 3,7 m × 10,1 m × 4,0 m | 185,9 KB |
+| <img src="previas/trailer_de_apoio.png" width="130" alt="Reboque de apoio, modelo low poly de cidade: reboque pequeno de equipe com baú, faixas, porta lateral, cambão e roda de apoio"> | **Reboque de apoio**<br>[`trailer_de_apoio.glb`](modelos/trailer_de_apoio.glb) | Reboque pequeno de equipe com baú, faixas, porta lateral, cambão e roda de apoio | 1.456 | 2,1 m × 2,7 m × 5,5 m | 197,6 KB |
+| <img src="previas/guincho.png" width="130" alt="Caminhão-guincho, modelo low poly de cidade: caminhão-guincho de apoio com lança, cabo e gancho, garfo de reboque, giroflex e caixas de ferramentas"> | **Caminhão-guincho**<br>[`guincho.glb`](modelos/guincho.glb) | Caminhão-guincho de apoio com lança, cabo e gancho, garfo de reboque, giroflex e caixas de ferramentas | 3.176 | 3,0 m × 3,5 m × 9,5 m | 422,3 KB |
 
 ## Pastas
 

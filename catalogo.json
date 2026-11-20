@@ -24,7 +24,7 @@
   },
   {
    "nome": "Parque de apoio",
-   "modelos": 23
+   "modelos": 28
   }
  ],
  "modelos": [
@@ -1317,6 +1317,122 @@
    ],
    "arquivo": "modelos/cerca_de_grade.glb",
    "previa": "previas/cerca_de_grade.png"
+  },
+  {
+   "id": "arquibancada",
+   "nome": "Arquibancada",
+   "secao": "Parque de apoio",
+   "descricao": "Arquibancada de cinco degraus com estrutura de tubos, bancos de madeira, escada lateral e faixa da equipe",
+   "triangulos": 1144,
+   "kb": 161.3,
+   "dimensoes": [
+    11.183,
+    3.379,
+    4.814
+   ],
+   "base_y": -0.2,
+   "materiais": [
+    "madeira",
+    "metal",
+    "liso",
+    "lona",
+    "xadrez"
+   ],
+   "arquivo": "modelos/arquibancada.glb",
+   "previa": "previas/arquibancada.png"
+  },
+  {
+   "id": "arquibancada_com_publico",
+   "nome": "Arquibancada com público",
+   "secao": "Parque de apoio",
+   "descricao": "A mesma arquibancada com o público sentado (figuras simples de ~100 triângulos fundidas na malha)",
+   "triangulos": 5732,
+   "kb": 752.8,
+   "dimensoes": [
+    11.183,
+    3.673,
+    4.814
+   ],
+   "base_y": -0.2,
+   "materiais": [
+    "madeira",
+    "metal",
+    "liso",
+    "lona",
+    "xadrez"
+   ],
+   "arquivo": "modelos/arquibancada_com_publico.glb",
+   "previa": "previas/arquibancada_com_publico.png"
+  },
+  {
+   "id": "torre_de_observacao",
+   "nome": "Torre de observação",
+   "secao": "Parque de apoio",
+   "descricao": "Torre de madeira treliçada com plataforma, guarda-corpo, telhado de quatro águas e escada",
+   "triangulos": 1342,
+   "kb": 185.9,
+   "dimensoes": [
+    3.677,
+    10.125,
+    3.968
+   ],
+   "base_y": -0.125,
+   "materiais": [
+    "liso",
+    "madeira",
+    "chapa",
+    "lona",
+    "metal"
+   ],
+   "arquivo": "modelos/torre_de_observacao.glb",
+   "previa": "previas/torre_de_observacao.png"
+  },
+  {
+   "id": "trailer_de_apoio",
+   "nome": "Reboque de apoio",
+   "secao": "Parque de apoio",
+   "descricao": "Reboque pequeno de equipe com baú, faixas, porta lateral, cambão e roda de apoio",
+   "triangulos": 1456,
+   "kb": 197.6,
+   "dimensoes": [
+    2.1,
+    2.7,
+    5.45
+   ],
+   "base_y": -0.03,
+   "materiais": [
+    "metal",
+    "liso",
+    "pneu",
+    "vidro",
+    "luz"
+   ],
+   "arquivo": "modelos/trailer_de_apoio.glb",
+   "previa": "previas/trailer_de_apoio.png"
+  },
+  {
+   "id": "guincho",
+   "nome": "Caminhão-guincho",
+   "secao": "Parque de apoio",
+   "descricao": "Caminhão-guincho de apoio com lança, cabo e gancho, garfo de reboque, giroflex e caixas de ferramentas",
+   "triangulos": 3176,
+   "kb": 422.3,
+   "dimensoes": [
+    3.04,
+    3.471,
+    9.545
+   ],
+   "base_y": 0.012,
+   "materiais": [
+    "metal",
+    "liso",
+    "pneu",
+    "vidro",
+    "xadrez",
+    "luz"
+   ],
+   "arquivo": "modelos/guincho.glb",
+   "previa": "previas/guincho.png"
   }
  ]
 }
