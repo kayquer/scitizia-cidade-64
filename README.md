@@ -1,5 +1,7 @@
 # Scitizia: 63 prédios, lojas, peças de rua e de parque de apoio low poly em glTF/GLB com visual retrô de 64 bits
 
+🇧🇷 Português · **🇬🇧 [Read in English](README.en.md)**
+
 ![Mosaico com os 63 modelos low poly da cidade: garagem da equipe, concessionárias, museu, federação, prédios com janelas, casas com quintal, sobrados, lojas, galpões, postes, carros de rua, tendas, caminhão de serviço, motorhome, ferramentas de oficina, arquibancada, torre de observação, reboque e caminhão-guincho](docs/cidade-low-poly-64-bits.jpg)
 
 **Scitizia: cidade 64 bits** é uma coleção gratuita de construções e objetos de cidade em baixo polígono (low poly), com o visual retrô dos consoles de 64 bits, prontos para jogos em tempo real: **11 locais** inteiros num quarteirão (garagem da equipe, cinco concessionárias de marcas inventadas, galpão de seminovos, pátio de usados, sede da federação, museu e pórtico da estrada), **19 lotes** de prédios, casas, sobrados, lojas, galpões, estacionamento e terreno vazio, **5 peças de rua** e **28 objetos de parque de apoio e de prova** de rali (tendas, caminhão de serviço, motorhome, picape, ferramentas, arquibancada com e sem público, torre de observação, reboque de equipe e caminhão-guincho). São 63 arquivos glTF 2.0 binários (`.glb`) de 9,2 a 1.434,3 KB, com 42 a 10.902 triângulos, cor por vértice com sombreado assado e texturas de 64×64 px. Os modelos são os mesmos da cidade da carreira do jogo **Scitizia Rally Championship**, montados pelo próprio código do jogo; as marcas das concessionárias são inventadas.
